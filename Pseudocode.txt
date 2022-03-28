@@ -1,0 +1,59 @@
+Pseudo code for BusraOzdemir_IssacLopez_06 Class:
+
+BusraOzdemir_IssacLopez_06 {
+
+    // Shell sort implementation class.
+    shellShort method {
+
+        Increment is set to an integers length in an array divided by 2.
+        Implementation of shell sort using WHILE LOOP, IF, and FOR LOOP.
+
+    } // End shellSort method
+
+    // **********************************************************************
+
+    // Method to find middle element; sort and merge.
+    partitionMid {
+
+        Local variables are left, right, temp, middle, flag.
+        Implementation of quick short using WHILE LOOP, IF, and ELSE IF.
+        Return the middle number.
+
+    } // End partitionMid method
+
+    // **********************************************************************
+
+    // Recursive quick sort implementation.
+    quickSort {
+
+
+
+    } // End quickSort method
+
+    // **********************************************************************
+
+    // Main method.
+    main {
+
+        Set 2 arrays to size of 100.
+        Set scanner to null.
+        TRY/CATCH: used to pull numbers form input file.
+        WHILE LOOP: scans integers to the arrays.
+
+        Call shell sort.
+        Write sorted array to shell sort output file.
+        TRY/CATCH used to start new line after 10 numbers in the  file;
+        including the numbers and the spaces.
+
+        Call quick sort.
+        Write sorted array to quick sort output file.
+        TRY/CATCH: used to start new line after 10 numbers in the file;
+        including the numbers and the spaces.
+
+        Close output from BufferedWriter.
+
+    } // End main method
+
+} // End BusraOzdemir_IssacLopez_06 class
+
+
